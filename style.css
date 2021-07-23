@@ -1,5 +1,8 @@
 .flower {
-    width: 20%;
+    min-width: 300px;
+    max-width: 50%;
+    
+   
 }
 
 #firstText {
@@ -8,4 +11,14 @@
 
 h1 {
     text-transform: capitalize;
+}
+
+div {
+    border: 5px red solid;
+    width: 1200px;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
